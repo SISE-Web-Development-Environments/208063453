@@ -1,193 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Idan Amedi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+<!-- Navigation bar -->
+    <div class="navbar">
+        <img src="pictures/logo.png" alt="Idan" class="logo" >
+        <a href="#about"><b>About</b></a>
+        <a href="#photos"><b>Photos</b></a>
+        <a href="#playlist"><b>Playlist</b></a>
+        <a href="#like"><b>Like</b></a>
+        <a href="#qrCode"><b>QR-Code</b></a>
+        <a href="#q&a"><b>Q&A</b></a>
+        <a href="#contact"><b>Contact Me</b></a>
+    </div>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+    <header>
+        <div class="topicPicture">
+            <img src="pictures/idan1.jpg" alt="idan" width="100%"  >
+        </div>
+    </header>
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+    <section id="about" class="section">
+        <h1>About</h1>
+        <div id="about1">
+            <p><strong>Idan Amedi</strong> was born at 1988 in Pisgat Ze'ev, Jerusalem. He is an israeli singer, writer, composer and actor.<br>
+                He began his singing career in an audition on "Star Born", when he performed with the song "Pain of Warriors" he wrote and composed himself about his experiences as a warrior during his military service.
+                With the end of that "Star Born" season in 2010, the song "Pain of Warriors" came out as his first single on the radio stations, reaching first place on the playlists in Israel.<br>
+                Until now Idan release four successful  albums:<br>
+                1.Idan Amedi(עידן עמדי)<br>
+                2.Bazman A'aharon(בזמן האחרון)<br>
+                3.Rachinoo Lihiyot(רצינו להיות)<br>
+                4.Helek Mehazman(חלק מהזמן).<br>
+                Some of his successful songs are: Nigmar(נגמר),Ani Roche(אני רוצה),Helek Mehazman(חלק מהזמן) etc.<br>
+                At 2017, he began his acting career in the second season of Pauda, when he acting Sagi, joins to the special military unit.<br>
+            </p>
+        </div>
+    </section>
+
+    <section id="photos" class="selection">
+        <h1>Photos</h1>
+        <div id="photo">
+            <img id="idanp1" alt="idan" src="pictures/idanp1.jpg" style="width:24%">
+            <img id="idanp2" alt="idan" src="pictures/idanp2.jpg" style="width:24%">
+            <img id="idanp3"  alt="idan" src="pictures/idanp3.jpg" style="width:24%">
+            <img id="idanp4" alt="idan" src="pictures/idanp4.jpg" style="width:24%">
+        </div>
+    </section>
+
+    <selection id="playlist" class="selection">
+        <h1>Playlist</h1>
+        <div id="songs">
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/M79b596-1vY"></iframe>
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/JgNjY7bnKSI"></iframe>
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/pxM56yRejmw"></iframe>
+        </div>
+    </selection>
+
+    <selection id="like" class="selection">
+        <h1>Like</h1>
+        <div id="facebook">
+            <p><strong>You like? Please give us a Like or Sharing</strong></p>
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fidanamedi%2F&width=156&layout=button_count&action=like&size=large&share=true&height=46&appId" width="156" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </selection>
+
+    <selection id="qrCode" class="selection">
+        <h1>QR Code</h1>
+        <div id="code">
+            <img id="QR" alt="Smiley face" src="pictures/qr-code.png"  >
+        </div>
+    </selection>
+
+    <selection id="q&a" class="selection">
+        <h1>Questions & Answers</h1>
+        <div id="QA">
+            <p><strong>Three differences between web1, web2 and web3</strong><br>
+                <strong>1.</strong> Web1 Supports read-only, web2 supports reading and writing and web3 in addition to web2, it supports both Portable and Personal computers.<br>
+                <strong>2.</strong> Web1 was for Companies only, web2 was mainly for Communities and web3 in addition to web2, for individuals.<br>
+                <strong>3.</strong> Web1 contains only forms on the web, web2 contains also web apps, and web3 contains smart apps.<br>
+            </p>
+            <p><strong>For example: The query "Information about Israel"</strong><br>
+                Web1 will display all existing links in an orderly manner, and the user will have to search for the relevant links himself.
+                Web2 uses a search engine (app) to find the relevant pages. This version will show only the specific pages that match with the query.
+                Web3 uses a smart search engine (smart app) to find the relevant pages. This version will show the pages that mach with the query and pages with common topics.<br>
+            </p>
+        </div>
+    </selection>
+
+    <selection id="contact" class="selection">
+        <h1>Contact Me</h1>
+        <form action="mailto:example@example.com" method="POST">
+
+            <label  id="label" for="name">Email:</label>
+            <label for="email"></label><input type="email" id="email" name="email" placeholder="example@example.com"><br><br><br>
+
+            <label id="label" for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name"><br><br>
+
+            <label   id="label" for="name">Subject:</label>
+            <label for="subject"></label><input type="text" id="subject" name="subject" placeholder="Subject" ><br><br>
+
+            <label  id="label" for="name">Message:</label><br>
+            <textarea id="message" name="message" cols="50" rows="10"
+                      placeholder="Write Your Message Here"></textarea>
+            <input list="browsers" name="browser" >
+            <datalist id="browsers" width="10px">
+                <option value="&#128512">
+                <option value="&#128514">
+                <option value="&#128521">
+                <option value="&#128525">
+                <option value="&#128531">
+            </datalist><br><br>
+
+
+            <input type="submit" value="Submit">
+        </form>
+    </selection>
 </body>
 </html>

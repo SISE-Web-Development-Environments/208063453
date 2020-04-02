@@ -1,7 +1,96 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+
+.navbar {
+    padding: 20px;
+    text-align: center;
+    background-color:black;
+    position: fixed;
+    width: 100%;
 }
+
+a {
+    font-size: 20px;
+    color: white;
+    font-family:Calibri, system-ui, monospace  ;
+    font-style: normal;
+    margin: 20px;
+    text-decoration: none;
+    float: bottom;
+}
+.logo {
+    width: 250px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 1px;
+}
+#header .topicPicture{
+    z-index: 2;
+    position: relative;
+
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    text-shadow:5px 5px 5px rgb(5, 5, 5);
+    color: white;
+    background-color: #000d1a;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    font-family:Calibri, system-ui, monospace  ;
+    font-style: normal;
+}
+#about1{
+    font-size: 25px;
+    font-family:Calibri, system-ui, monospace  ;
+}
+#photo img{
+    border-radius: 70%;
+    float: bottom;
+}
+#songs iframe{
+    margin: 23px;
+    float: bottom;
+}
+#qrCode img{
+    width: 200px;
+    height: 200px;
+    float: bottom;
+}
+#facebook {
+    font-size: 20px;
+    font-family: Calibri, system-ui, monospace;
+}
+#QA{
+    font-size: 25px;
+    font-family: Calibri, system-ui, monospace;
+}
+#label{
+    font-size: 20px;
+    font-family:Calibri, system-ui, monospace  ;
+}
+#name{
+    font-size: 15px;
+    font-family:Calibri, system-ui, monospace  ;
+}
+#email{
+    font-size: 15px;
+    font-family:Calibri, system-ui, monospace  ;
+}
+#subject{
+    font-size: 15px;
+    font-family:Calibri, system-ui, monospace  ;
+}
+#message{
+    font-size: 15px;
+    font-family:Calibri, system-ui, monospace  ;
+}
+input[type=submit]{
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family:Calibri, system-ui, monospace  ;
+
+}
+#label{
+    font-size:20px;
+    font-family:Calibri, system-ui, monospace  ;
+}
+
